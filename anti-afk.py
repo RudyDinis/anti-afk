@@ -13,12 +13,5 @@ keys_to_press = ['w', 'a', 's', 'd'] #permet de faire deplacer le joueur en carr
 while True:
     # Boucle pour presser chaque touche dans l'ordre spécifié
     for key in keys_to_press:
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        press_key(key)
-        # Attendre 10 secondes avant de passer à la prochaine touche
+        press_key(key) #ajouter plusieurs fois cette ligne pour se déplacer plus loin
+        
